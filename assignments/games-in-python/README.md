@@ -1,19 +1,34 @@
 
-# 🎮 Hangman Game Challenge
+# 📘 Assignment: 划词猜词（Hangman）游戏挑战
 
-Build the classic word-guessing game using Python strings, loops, and user input.
+## 🎯 Objective
 
-## � What You'll Build
+使用 Python 实现一个划词猜词（Hangman）游戏，练习字符串处理、循环与条件判断，并掌握基本的用户输入/输出流程。
 
-Create a Hangman game where players guess letters to reveal a hidden word before running out of attempts.
+## 📝 Tasks
 
-**Skills practiced:** String manipulation, loops, conditionals, random selection
+### 🛠️ 主要任务：实现 Hangman 游戏
 
-## ✅ Must Have's
+#### Description
+实现一个在命令行运行的划词猜词游戏：程序从单词列表中随机选择一个单词，玩家通过输入字母来逐步揭示单词，直到猜出单词或用尽尝试次数。
 
-Your game must:
-- Randomly select words from a predefined list
-- Accept letter guesses and show current progress (_ _ _ format)
-- Track incorrect guesses remaining
-- End when word is guessed or attempts exhausted
-- Display win/lose messages
+#### Requirements
+Completed program should:
+
+- 从预定义的单词列表中随机选择单词
+- 接受玩家的单个字母输入并验证有效性（忽略大小写，过滤非字母输入）
+- 显示当前猜测进度（例如：_ _ a _ _）和已猜过的字母列表
+- 跟踪并展示剩余的错误猜测次数
+- 在玩家猜出单词或用尽猜测次数时结束游戏并显示胜利/失败消息
+
+### 🛠️ 可选扩展任务：增强用户体验
+
+#### Description
+在实现基本功能后，可实现以下可选增强，作为额外加分项。
+
+#### Requirements
+
+- 支持从外部文本文件或 JSON 中加载单词列表
+- 添加关卡/难度设置（例如：简单/中等/困难，对应不同的单词长度或错误次数）
+- 绘制简单的 ASCII “绞刑架”进度图以可视化错误次数
+- 记录并显示玩家得分或历史最高分
