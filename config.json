@@ -59,5 +59,20 @@
         }
       ]
     }
+    ,
+    {
+      "id": "bubble-sort",
+      "title": "冒泡算法",
+      "description": "实现并分析冒泡排序算法（Bubble Sort），练习数组操作和复杂度分析。",
+      "path": "assignments/bubble-sort",
+      "dueDate": "2026-04-10",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        }
+      ]
+    }
   ]
 }
